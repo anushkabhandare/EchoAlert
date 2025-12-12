@@ -5,7 +5,7 @@ FROM tomcat:9-jdk11
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 
 # Copy your WAR file into Tomcat
-COPY SmartHonkingZone.war /usr/local/tomcat/webapps/ROOT.war
+COPY SmartHonkingZone_Speed.war /usr/local/tomcat/webapps/ROOT.war
 
 # Expose port 8080
 EXPOSE 8080
